@@ -2,4 +2,5 @@
     <aura:handler action="{!c.onInit}" name="init" value="{!this}"/>    
     <aura:attribute name="checkboxValue" type="String" default="Hello"/>
     <lightning:input type="checkbox" change="{!c.change}" value="{!v.value}"/>
+    <div>OnChange Component</div>
 </aura:component>	
